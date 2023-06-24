@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Let's Play Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styling.css" />
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <div class="hero-section">
+        <p class="main-text">Let's play Rock Paper Scissors!</p>
+        <br>
+        <p class="secondary-text">Push any one of the buttons below to make your move.</p>
+    </div>
+    <div class="game-section">
+        <br>
+        <div class="game-outcome">
+            <p>Number of games won:</p><p id="counter"></p>
+        </div>
+        <br>
+        <div class="game-selection">
+            <button id="rock-button">Rock</button>
+            <button id="paper-button">Paper</button>
+            <button id="scissors-button">Scissors</button>
+        </div>
+        <br>
+    </div>
 </body>
 </html>
