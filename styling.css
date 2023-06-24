@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.hero-section {
+    background-color: #1f2937;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.game-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-outcome {
+    display: flex;
+    gap: 10px;
+}
+
+.game-selection {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.game-selection > button {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+}
