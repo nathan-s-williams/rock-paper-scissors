@@ -2,6 +2,7 @@ let winCount = 0;
 document.querySelector('#counter').textContent = winCount;
 
 const updateCounter = () => {
+    winCount++;
     document.querySelector('#counter').textContent = winCount;
 }
 
@@ -21,7 +22,6 @@ const playRound = (computerSelection, playerSelection) => {
     if (playerSelection == "rock" && computerSelection == "scissors" ||
         playerSelection == "paper" && computerSelection == "rock" ||
         playerSelection == "scissors" && computerSelection == "paper") {
-        winCount++; 
         updateCounter();   
         return `Player wins! Player chose ${playerSelection} and the computer chose ${computerSelection}`
     } else if (playerSelection == computerSelection) {
